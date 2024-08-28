@@ -1,0 +1,146 @@
+en:
+  models:
+    cached_calculation:
+      one: Attribute
+      other: Attributes
+    cached_constraint:
+      one: Scenario Constraint
+      other: Scenario Constraints
+    cached_criterion:
+      one: Criterion
+      other: Criteria
+    cached_decision:
+      one: Decision
+      other: Decisions
+    cached_option:
+      one: Option
+      other: Options
+    cached_option_category:
+      one: Topic
+      other: Topics
+    cached_option_detail:
+      one: Option Attribute
+      other: Option Attribute
+    cached_option_filter:
+      one: Option Groups
+      other: Option Groups
+    cached_scenario_config:
+      one: Scenario Configuration
+      other: Scenario Configurations
+      title: Scenario Configuration
+    cached_variable:
+      index_html: 'Your variables are automatically created. If you want to display one of these values to your participants, you''ll need to create a scenario attribute.'
+      one: Variable
+      other: Variables
+    calculation:
+      info_html: 'Scenario Attributes preform arithmetic on Option Attributes, and are applied to the scenarios Ethelo generates for your Decision. You can use Scenario Attributes display additional information to participants, or to ensure scenarios are valid by adding Constraints.'
+      one: Scenario Attribute
+      other: Scenario Attributes
+      title: Scenario Attributes
+    decision:
+      one: Decision
+      other: Decisions
+    decision_user:
+      one: Participant
+      other: Participants
+
+  metrics:
+    approval:
+      bin1_caption: Extremely Unpopular
+      bin2_caption: Very Unpopular
+      bin3_caption: Moderately Unpopular
+      bin4_caption: Somewhat Unpopular
+      bin5_caption: Neutral
+      bin6_caption: Low Popular
+      bin7_caption: Medium Popular
+      bin8_caption: Very Popular
+      bin9_caption: Extremely Popular
+      no_votes_caption: No Votes
+    dissonance:
+      bin1_caption: Very High Consensus
+      bin2_caption: High Consensus
+      bin3_caption: Medium Consensus
+      bin4_caption: Low Consensus
+      bin5_caption: Neutral
+      bin6_caption: Low Conflict
+      bin7_caption: Medium Conflict
+      bin8_caption: High Conflict
+      bin9_caption: Very High Conflict
+      no_votes_caption: No Votes
+    ethelo:
+      bin1_caption: Extremely Weak
+      bin2_caption: Very Weak
+      bin3_caption: Moderately Weak
+      bin4_caption: Somewhat Weak
+      bin5_caption: Neutral
+      bin6_caption: Low Strength
+      bin7_caption: Medium Strength
+      bin8_caption: Very Strong
+      bin9_caption: Extremely Strong
+      no_votes_caption: No Votes
+    hints:
+      abstain_votes_html: The number of participants who skipped voting on this item (but voted on other items)
+      approval_html: Approval is the percentage of people who gave a positive vote rather than a neutral or negative vote. Approval above 50% is a traditional "majority".
+      combined_allocation_html: Sum of seed and vote allocation amounts
+      dissonance_html: Conflict is a measure of the level of disagreement in a group. Higher conflict scores represent internal resistance and risk of failure.
+      ethelo_html: 'Consensus (Ethelo score) is a measure of the overall strength of the decision, considering both support (higher is better) and conflict (lower is better).'
+      final_allocation_html: Final Allocation Amount after cutuff and rounding
+      negative_votes_html: The number of times a participant entered a 'negative' option
+      neutral_votes_html: The number of times a participant entered a 'neutral' option
+      positive_seed_votes_sq_html: The Squared amount of positive (non zero) votes assigned to the item
+      positive_seed_votes_sum_html: The amount of positive (non zero) votes assigned to the item
+      positive_votes_html: The number of times a participant entered a 'positive' option
+      seed_allocation_html: The amount potentially allocated to the item due to seed amounts
+      seeds_assigned_html: The number of Seeds voters assigned to the item
+      support_html: 'Support is the average value of the votes, where the value of a totally opposing vote is 0 and a totally supportive vote is 100.'
+      total_votes_html: The total number of participants who voted.
+      vote_allocation_html: The amount potentially allocated to the item due to positive votes
+      voter_percent_html: The number of participants who voted for this item
+    labels:
+      abstain_votes: Abstain Votes
+      advanced_votes: Slider Votes
+      allocated_amount: '{{amount}} Allocated'
+      approval: Approval
+      average_weight: Average Weighting
+      combined_allocation: Combined Allocation Amount
+      dissonance: Conflict
+      ethelo: Consensus
+      final_allocation: Amount Granted
+      final_allocation_global: 'Total Grants Awarded: {{amount}} '
+      negative_votes: Negative Votes
+      neutral_votes: Neutral Votes
+      positive_seed_votes_sq: Positive Quadratic Votes Squared
+      positive_seed_votes_sum: '# Positive Votes'
+      positive_votes: Positive Votes
+      positive_votes_amount: '{{amount}} Positive Votes'
+      rank: Rank
+      seed_allocation: Seed Allocation Amount
+      seeds_amount: '{{amount}} Seeds'
+      seeds_assigned: '# Seeds Assigned'
+      support: Support
+      total_votes: Total Votes
+      vote_allocation: Vote Allocation Amount
+      voter_percent: Voter %
+    voter_count: '{{count}} people voted'
+    voter_percent:
+      bin1_caption: Extremely Unpopular
+      bin2_caption: Very Unpopular
+      bin3_caption: Moderately Unpopular
+      bin4_caption: Somewhat Unpopular
+      bin5_caption: Neutral
+      bin6_caption: Low Popular
+      bin7_caption: Medium Popular
+      bin8_caption: Very Popular
+      bin9_caption: Extremely Popular
+      no_votes_caption: No Votes
+  voting:
+    bin: Score
+    bin1_caption: Totally Oppose
+    bin2_caption: Mostly Oppose
+    bin3_caption: Moderately Oppose
+    bin4_caption: Slightly Oppose
+    bin5_caption: Neutral
+    bin6_caption: Slightly Support
+    bin7_caption: Moderately Support
+    bin8_caption: Mostly Support
+    bin9_caption: Totally Support

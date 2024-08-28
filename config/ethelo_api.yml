@@ -1,0 +1,14 @@
+default: &default
+  url: http://backend:4001/api/api
+  schema: db/ethelo_api.json
+  group_results:
+    url: http://backend:4001/api/api
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
